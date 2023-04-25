@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+h3{
+    background-color: rgb(0, 100, 255);
+}
+
+p.top{
+    font-size: 30px;
+    line-height: 50px;
+    /* text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 11px;
+    word-spacing: 10px; */
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+#bottom{
+    font-size: 30px;
+    /* padding: 20px;
+    margin: 30px; */
+    border: 4px solid green;
+    /* padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 40px; */
+    /* padding: 20px 40px; */
+    /* margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-right: 40px; */
+    margin: 40px 20px;
+}
+
+.categories{
+    border: 4px solid black;
+    border-radius: 10px;
+    text-transform: uppercase;
+
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+
+.categories li{
+    margin-bottom: 20px;
+    border-bottom: 1px dotted blue;    
+    padding-left: 10px;
+}
+
+.categories a:hover{
+    background-color: orange;
+    font-size: 22px;
+}
+
+.my-form{
+    padding: 20px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.form-gp input{
+    display: block;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.form-gp label{
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
+.btn{
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    background-color: orangered;
+    color: white;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: blue;
+    color: red;
+}
+
+.btn:active{
+    background-color: pink;
+}
+
+.block{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.block1{
+    float: right;
+    width: 50%;
+    padding: 19px;
+    border:  5px solid black;
+    box-sizing: border-box;
+}
