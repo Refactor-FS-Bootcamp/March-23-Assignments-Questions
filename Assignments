@@ -6,3 +6,8 @@ https://docs.google.com/document/d/1GgLlyilqJCxzAFAcodRZRmk6NWiZSBWkIf4ECBs1CvI/
 Assignment-2
 -------------
 Recreate the task-manager app and deploy with Back4app
+
+Assignment-3
+-------------
+Hit the Fake API store endpoint using JavaScript - https://fakestoreapi.com/products
+And show image, title and price for each item on screen. Additional points will be given for better design
