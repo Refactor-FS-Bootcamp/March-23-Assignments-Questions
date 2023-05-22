@@ -15,3 +15,7 @@ And show image, title and price for each item on screen. Additional points will 
 Assignment-4
 -------------
 Add Radio buttons and checkboxes in both DemoForm.js and AdvForm.js in React Code
+
+Assignment-5
+-------------
+Hit the fakestore API endpoint, using React Class based https://fakestoreapi.com/products and show the image, title and price for each item on the screen
