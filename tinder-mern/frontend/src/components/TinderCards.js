@@ -1,14 +1,18 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './TinderCards.css'
 import TinderCard from 'react-tinder-card'
+import axios from 'axios'
 
 const TinderCards = () => {
-    const [people, setPeople] = useState([
-        { name: 'man 1', imgUrl: 'https://randomuser.me/api/portraits/men/3.jpg'},
-        { name: 'man 2', imgUrl: 'https://randomuser.me/api/portraits/men/28.jpg'},
-        { name: 'woman 1', imgUrl: 'https://randomuser.me/api/portraits/women/3.jpg'},
-        { name: 'woman 2', imgUrl: 'https://randomuser.me/api/portraits/women/65.jpg'},
-    ])
+    const [people, setPeople] = useState([])
+
+    useEffect(() => {
+        const fetchData = async() => {
+            const req = await axios.get('https://tinderbackendmar-nabendubiswas.b4a.run/tinder/cards');
+            setPeople(req.data)
+        }
+        fetchData()
+    },[])
 
     const onSwipe = (direction) => {
         console.log('You swiped: ' + direction)
