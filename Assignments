@@ -58,3 +58,6 @@ Assignment-14
 -------------
 Create the NextJS 13 app following instruction in class and deploy it using instructions at the end of this post. Submit the deployed link. https://medium.com/@nabendu82/nextjs-13-crash-course-2023-baabaa7f6e49
 
+Assignment-15
+-------------
+Create a Crypto Currency app in NextJS 13 ,following this post. Note that the instructions are for earlier version of NextJS, but you need to update it for NextJS 13 - https://medium.com/geekculture/cryptocurrency-price-tracker-in-nextjs-b38789dcbd92 
